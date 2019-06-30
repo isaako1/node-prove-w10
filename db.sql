@@ -59,3 +59,4 @@ INSERT INTO restaurants (
  \c restaurants
  GRANT SELECT, INSERT, UPDATE ON restaurants TO isaac;
  GRANT USAGE, SELECT ON SEQUENCE restaurants_id_seq TO isaac;
+ git push master master
